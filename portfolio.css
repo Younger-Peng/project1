@@ -1,0 +1,158 @@
+html,body,h1,h2,h3,h4,h5,h6,ul,li {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 14px/1.8 Arial;
+	background: #ccc;
+	color: #333;
+}
+li {
+	list-style: none;
+}
+* {
+	box-sizing: border-box;
+}
+section>ul>li {
+	position: relative;
+	margin-left: 90px;
+}
+.page {
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 30px 40px;
+	border-radius: 3px;
+	background: white;
+}
+header:after {
+	content: '';
+	display: block;
+	clear: both;
+	margin-bottom: 50px;
+}
+header>.name {
+	float: left;
+	width: 50%;
+}
+header>.info {
+	float: left;
+	width: 50%;
+}
+header>.name>.circle {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background: #222;
+}
+header>.name>.circle {
+	float: left;
+	position: relative;
+	font-size: 40px;
+	color: white;
+}
+header>.name>.circle:before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 90px;
+	border-top: 3px solid white;
+	transform: rotateZ(135deg);
+	top: 68px;
+	left: 30px;
+}
+header>.name>.circle>span:nth-child(1) {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+header>.name>.circle>span:nth-child(2) {
+	position: absolute;
+	bottom: 25px;
+	right: 25px;
+}
+header>.name>h3 {
+	font-size: 30px;
+	margin: 10px 0 0 160px;
+}
+header>.info>h3 {
+	font-size: 30px;
+	border-bottom: 4px solid #333;
+}
+header p {
+	font-size: 20px;
+	margin: 0 0 0 160px;
+}
+section>h2 {
+	width: 50%;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+section>ul {
+	border-left: 4px solid gray;
+}
+section>ul>li:before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #333;
+	left: -97px;
+	top: 10px;
+}
+footer:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+footer>div {
+	float: left;
+	width: 50%;
+
+
+}
+footer>div>h3 {
+	font-size: 30px;
+	width: 60%;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+footer>div>ul>li {
+	position: relative;
+	padding-left: 70px;
+	padding-right: 20px;
+}
+footer>div>ul h3 {
+	font-size: 24px;
+}
+footer>div>ul>li:before {
+	content: '+';
+	display: block;
+	position: absolute;
+	font-size: 20px;
+	color: red;
+	top: 6px;
+	left: 0px;
+}
+footer>div>ul>li:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border: 2px solid red;
+	border-radius: 50%;
+	top: 12px;
+	left: -6px;
+}
+
+
+
+
+
+
+
+
+
+
