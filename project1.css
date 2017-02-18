@@ -1,0 +1,122 @@
+body {
+  font-family: 'Lantinghei SC';
+  margin: 0;
+  background: #fff5e2;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Lantinghei SC';
+  font-weight: normal;
+  margin: 0;
+}
+button {
+  font-family: 'Lantinghei SC';
+}
+ol {
+ list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.wrap {
+  width: 900px;
+  height: 100vh;
+  margin: 0 auto;
+}
+.caption {
+  height: 100px;
+}
+.caption {
+  color: gray;
+  padding: 10px;
+  text-align: center;
+}
+.caption>h2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.caption>span {
+  font-size: 13px;
+  color: #aaa;
+}
+.show {
+  margin: 30px 0;
+}
+.show>nav>ol {
+  text-align: center;
+  font-size: 0;
+}
+.show>nav>ol>li {
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+  margin:3px 2px;
+  padding: 5px 8px;
+  border-radius: 2px;
+  background: #559a55;
+  cursor: pointer;
+}
+.show>nav>ol>li>label {
+  cursor: pointer;
+}
+
+.show>nav>ol>li:hover {
+  background: #68bb68;
+}
+.show>.picture {
+  position: relative;
+  margin-top: 30px;
+  height: 330px;
+}
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:nth-child(1):checked~.picture>img:nth-child(1),
+input[type="radio"]:nth-child(2):checked~.picture>img:nth-child(2),
+input[type="radio"]:nth-child(3):checked~.picture>img:nth-child(3),
+input[type="radio"]:nth-child(4):checked~.picture>img:nth-child(4),
+input[type="radio"]:nth-child(5):checked~.picture>img:nth-child(5) {
+  display: block;
+}
+
+.show>.picture>img {
+  display: none;
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  left: 50%;
+  margin-left: -200px;
+  animation: slide 2s;
+}
+@keyframes slide {
+  from{opacity: 0.6;}
+  to{opacity: 1;}
+}
+.show>.directory {
+  text-align: center;
+}
+.show>.directory>button {
+  font-size: 14px;
+  background: #559a55;
+  margin: 0 10px;
+  padding: 5px 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.show>.directory>button:focus {
+  outline: none;
+}
+.show>.directory>button:hover {
+  background: #68bb68;
+}
+footer>h4 {
+  color: gray;
+  text-align: center;
+  padding: 10px;
+}
+footer>h4>span {
+  color: #559a55;
+}
