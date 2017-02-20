@@ -376,12 +376,14 @@ ul.icon>li:hover {
 	font-family: Charter,serif;
 }
 .team>ul h5 {
-	font-family: sans-serif;
+	font-family: din,interstate,'Akzidenz Grotesk',arial;
+	text-transform: capitalize;
 	font-size: 20px;
 	font-weight: bolder;
 }
 .team>ul h6 {
 	font-family: serif;
+	text-transform: capitalize;
 	font-size: 20px;
 	color: #777;
 	font-style: italic;
