@@ -74,7 +74,7 @@ nav>ul {
 .banner {
 	overflow: hidden;
 	text-align: center;
-	height: 700px;
+	height: 100vhx;
 	background: black url(images/banner.jpg) no-repeat;
 	background-size: cover;
 }
